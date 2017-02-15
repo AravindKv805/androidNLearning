@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.asu.msse.pkondudu.hikerswatch.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:text="Hiker's Watch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="Latitude: 12.23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:id="@+id/latitudeTextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:text="Longitude: -12.23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/longitudeTextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/latitudeTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:text="Accuracy: -12.23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/accuracyTextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/longitudeTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:text="Altitude: -12.23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/altitudeTextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/accuracyTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:text="Address: \n 123 Test Data \n Test Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/addressTextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/altitudeTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="18dp" />
+
+
+</RelativeLayout>
